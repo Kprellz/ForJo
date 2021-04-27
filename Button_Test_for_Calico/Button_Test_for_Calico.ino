@@ -151,7 +151,9 @@ void loop() {
     InterruptBigShort = false;
   }
 
+  Serial.println(IOCh23.ReadIOExpander());
 
+  delay(100);
 }
 
 //----------------------function for channel button press-------------
